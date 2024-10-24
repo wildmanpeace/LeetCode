@@ -7,30 +7,26 @@ public class AddTwoNumbers
         var first = new ListNode(2, new ListNode(4, new ListNode(3)));
         var second = new ListNode(5, new ListNode(6, new ListNode(4)));
 
-        var result = new ListNode();
-
-        result = AddNodes(first, second, 0);
-        int answer = 0;
-        
-
+        var answer = AddNodes(first, second, 0);
 
         return 0;
     }
 
-    private ListNode AddNodes(ListNode first, ListNode second, int carry)
+    public ListNode AddNodes(ListNode first, ListNode second, int carry)
     {
         ListNode result = new();
 
         //Resolving current node
-        var sum = first.Val + second.Val + carry;
+        var sum = first.val + second.val + carry;
         carry = sum >= 10 ? 1 : 0;
 
-        result.Val = carry == 1 ? sum - 10 : sum;
-        if (first.Next is null && second.Next is null)
+        result.val = carry == 1 ? sum - 10 : sum;
+        if (first.next is null && second.next is null)
         {
+            result.next = new ListNode(1);
             return result;
         }
-        result.Next = AddNodes(first.Next ?? new ListNode(), second.Next ?? new ListNode(), carry);
+        result.next = AddNodes(first.next ?? new ListNode(), second.next ?? new ListNode(), carry);
 
         return result;
     }
@@ -38,6 +34,19 @@ public class AddTwoNumbers
 
 public class ListNode(int val = 0, ListNode next = null)
 {
-    public int Val = val;
-    public ListNode? Next = next;
+    public int val = val;
+    public ListNode? next = next;
+
+    public override string ToString()
+    {
+        string result = val.ToString();
+        ListNode? current = next;
+        while (current is not null)
+        {
+            result += current.val;
+            current = current.next;
+        }
+
+        return result;
+    }
 }
