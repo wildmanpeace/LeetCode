@@ -3,4 +3,4 @@
 using BenchmarkDotNet.Running;
 using LeetCode.Benchmarks;
 
-var results = BenchmarkRunner.Run<LongestSubstringBenchmarks>();
+var results = BenchmarkRunner.Run<MedianTwoSortedArrayBenchmarks>();
