@@ -1,5 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c0b1c801_002D15dd_002D4190_002Da1c3_002Ddac5e70a45c1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SolveTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2f247810_002Dd22d_002D4cd1_002D84c4_002D08939959b532/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SolveTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.LongestSubstringTests.SolveTests&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.LongestSubstringTests.Solve2Tests&lt;/TestId&gt;
@@ -9,5 +9,20 @@
     &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.AddTwoNumberTests.AddTwoNumber_Case1_Test&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.MedianTwoSortedArraysTests.Solve&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.LongestPalindromeSubstringTests.Solve_Returns_Answer&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.ZigZagConvoTests.Solve_Tests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c0b1c801_002D15dd_002D4190_002Da1c3_002Ddac5e70a45c1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SolveTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.LongestSubstringTests.SolveTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.LongestSubstringTests.Solve2Tests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.AddTwoNumberTests.AddTwoNumberTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.AddTwoNumberTests.AddTwoNumber_Case2_Test&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.AddTwoNumberTests.AddTwoNumber_Case3_Test&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.AddTwoNumberTests.AddTwoNumber_Case1_Test&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.MedianTwoSortedArraysTests.Solve&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.LongestPalindromeSubstringTests.Solve_Returns_Answer&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.ZigZagConvoTests.Solve_Tests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>
