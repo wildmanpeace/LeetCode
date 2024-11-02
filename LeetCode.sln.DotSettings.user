@@ -8,5 +8,6 @@
     &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.AddTwoNumberTests.AddTwoNumber_Case3_Test&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.AddTwoNumberTests.AddTwoNumber_Case1_Test&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.MedianTwoSortedArraysTests.Solve&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::6BD5DFE4-4CFB-4F6C-8F91-E0B2CE7C3365::net8.0::LeetCodeTests.LongestPalindromeSubstringTests.Solve_Returns_Answer&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
